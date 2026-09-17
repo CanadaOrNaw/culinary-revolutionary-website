@@ -35,7 +35,7 @@ jobs:
         run: |
           mkdir -p _site/public/assets
           cp index.html menus.html thank-you.html styles.css script.js _site/
-          cp favicon.ico robots.txt sitemap.xml _site/
+          cp favicon.ico robots.txt sitemap.xml 7df5b1e0b37de01c7a1cfb04fc1aa0f1.txt _site/
           cp -r blog _site/blog
           cp .nojekyll _site/
           # CNAME is only present after the custom domain cutover.
