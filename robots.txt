@@ -5,6 +5,9 @@ Allow: /
 Disallow: /README.md
 Disallow: /DESIGN.md
 Disallow: /ASSET-SOURCES.json
+Disallow: /CLAUDE.md
+Disallow: /AGENTS.md
+Disallow: /CONTEXT.md
 
 # thank-you.html is deliberately NOT blocked here — it carries a noindex
 # meta tag, and blocking it in robots.txt would stop crawlers reading that.
