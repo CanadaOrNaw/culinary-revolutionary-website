@@ -137,3 +137,25 @@ landing copy only after the chef confirms the exact travel area.
 with this build (duplicate "French toast" in Brunch, whether Bagels/Lox/Cream cheese are
 one item or three, the Paella Valenciana 4–8 guest limit, and the per-course selection
 rules for Brunch and Spanish Tapas).
+
+
+## 🤖 The part that runs on a schedule
+
+The **weekly blog publishing** flow documented above is one of the recurring business jobs the automation stack is expected to take over. Two properties to preserve when it moves:
+
+1. **Publishing is an outward-facing action.** In the Agrippa design it gets drafted and approved rather than posted autonomously — the same class as sending email or messaging anyone who isn't Zack.
+2. **The generator is deterministic.** Menus are regenerated from source rather than hand-edited, which means a bad run can be re-run instead of repaired by hand. Keep that property; it is what makes the job safe to automate at all.
+
+The reminder that drives it lives in [`scripts`](http://127.0.0.1:3000/zack/scripts) as `aegis_culinary_blog_reminder.py`.
+
+
+---
+
+## 🔗 Where this fits
+
+| Repo | What it holds |
+|---|---|
+| **[fleet-index](http://127.0.0.1:3000/zack/fleet-index)** | every device, every path, every git history — and what happens to each in the refresh |
+| **[agrippa](http://127.0.0.1:3000/zack/agrippa)** | the private AI system being built on top: the OS, the harness, the runtime |
+
+<sub>Mirrored to Gitea by <code>~/.local/bin/gitstack_sync.sh</code>. Index checked against reality daily at 05:45 by <code>icm-fidelity.sh</code>.</sub>
