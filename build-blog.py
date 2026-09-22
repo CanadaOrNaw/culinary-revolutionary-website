@@ -98,7 +98,10 @@ if count != 1:
     raise ValueError("Homepage blog preview markers missing or duplicated")
 (ROOT / "index.html").write_text(home)
 lastmod = max(post["date_modified"] for post in posts)
-urls = [("/",lastmod),("/menus.html","2026-09-10"),("/blog/",lastmod)] + [(post["url"],post["date_modified"]) for post in posts]
+# Update these dates only when the corresponding page changes meaningfully.
+# A new blog post does not, by itself, change the menus page.
+homepage_lastmod = max(lastmod, "2026-09-22")
+urls = [("/",homepage_lastmod),("/menus.html","2026-09-10"),("/blog/",lastmod)] + [(post["url"],post["date_modified"]) for post in posts]
 (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{BASE}{e(url)}</loc><lastmod>{date}</lastmod></url>\n' for url,date in urls) + '</urlset>\n')
 items = []
 for post in posts:

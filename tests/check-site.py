@@ -56,6 +56,16 @@ for path, page in pages.items():
         assert '/menus.html' in page.links
         assert 'noindex' not in path.read_text()
 
+# Keep the public service-area answers and factual business identity crawlable.
+home_text = (ROOT/'index.html').read_text()
+home_graph = pages[ROOT/'index.html'].schemas[0]['@graph']
+by_type = {node['@type']: node for node in home_graph}
+assert {'LocalBusiness', 'Person', 'WebSite'} <= by_type.keys(), 'Missing factual business schema'
+assert by_type['WebSite']['publisher']['@id'] == by_type['LocalBusiness']['@id']
+assert 'How do I check if you can cook at my location?' in home_text
+assert 'Can you adapt a private dinner menu for different guests?' in home_text
+assert 'South Florida' in home_text
+
 sitemap = ET.parse(ROOT/'sitemap.xml')
 locations = [x.text for x in sitemap.findall('.//{*}loc')]
 assert len(locations) == len(set(locations))

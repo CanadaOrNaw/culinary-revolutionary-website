@@ -68,17 +68,17 @@ page = f'''<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sample Menus | Culinary Revolutionary</title>
+  <title>Private Chef Sample Menus | Culinary Revolutionary</title>
   <meta
     name="description"
-    content="Seven sample menus from Chef JB Martin: Italian, brunch, Spanish, Key West, wild game, tapas, and vegetarian. Every menu is customizable — choose your courses and dishes."
+    content="Explore seven customizable private chef menus for dinners and events on South Florida's Gulf Coast: Italian, brunch, Spanish, Key West, wild game, tapas and vegetarian."
   />
   <meta name="theme-color" content="#0a1f44" />
   <link rel="canonical" href="https://culinary-revolutionary.com/menus.html" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Culinary Revolutionary" />
-  <meta property="og:title" content="Sample Menus | Culinary Revolutionary" />
+  <meta property="og:title" content="Private Chef Sample Menus | Culinary Revolutionary" />
   <meta property="og:description" content="Seven customizable sample menus from a private chef serving South Florida's Gulf Coast." />
   <meta property="og:image" content="https://culinary-revolutionary.com/public/assets/hero.jpg" />
   <meta property="og:url" content="https://culinary-revolutionary.com/menus.html" />
