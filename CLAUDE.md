@@ -27,3 +27,5 @@ Publishing is an outward-facing action: drafted and approved, never posted auton
 
 - `~/Projects/fleet-index` — every device, path and git history, and what happens to each
 - `~/Projects/agrippa` — the AI system being built on top
+
+Read [handbook](docs/handbook/index.md) and its status before work. Before handoff, follow the [living-docs contract](file:///home/zack/Projects/fleet-index/_system/documentation/POLICY.md): review evidence, refresh canonical pages/status, rebuild views and pass working/staged checks.

@@ -1,0 +1,65 @@
+[
+  "index",
+  "collaboration",
+  {
+    "type": "category",
+    "label": "Getting started",
+    "collapsed": false,
+    "items": [
+      "developer/setup-and-project-map",
+      "tutorials/check-the-shipped-site-offline",
+      "tutorials/trace-a-menu-inquiry",
+      "tutorials/trace-an-existing-article"
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Architecture",
+    "items": [
+      "architecture",
+      "architecture/source-to-public-artifact",
+      "architecture/inquiry-and-personal-data"
+    ]
+  },
+  {
+    "type": "category",
+    "label": "How-to guides",
+    "items": [
+      "how-to/update-menus",
+      "how-to/write-and-rebuild-an-article",
+      "how-to/change-or-retire-article-source",
+      "how-to/preview-and-review-interactions",
+      "how-to/review-publication-and-domain-evidence"
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Developer guide",
+    "items": [
+      "developer/testing-and-extension-points",
+      "maintenance/change-impact-and-docs-ownership"
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Technical reference",
+    "items": [
+      "reference/generator-and-checker-cli",
+      "reference/menu-source",
+      "reference/article-source-and-metadata",
+      "reference/browser-contracts-and-form",
+      "reference/dependencies-and-configuration",
+      "reference/design-assets-and-crawl"
+    ]
+  },
+  "operations/verification-and-troubleshooting",
+  "status",
+  {
+    "type": "category",
+    "label": "Previous entry routes",
+    "items": [
+      "guide",
+      "CONTEXT"
+    ]
+  }
+]

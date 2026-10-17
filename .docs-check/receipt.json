@@ -1,0 +1,18 @@
+{
+  "generator": "fleet-index/documentation/enforce.py",
+  "hashes": {
+    "schemas/manifest.schema.json": "5fbe3c987a6a8b2c6aa3d2ff4724cd7b5aba8861342598140c8993871a7fc30a",
+    "schemas/review.schema.json": "570d6042950937f3505df077f13e31a64ce8dd03977801dbd244fe895a6145d0",
+    "scripts/check_index.py": "038b9bfae25434dbab61228ee90afb09d3ce4e438709092e07ba84583a42a57b",
+    "scripts/index_snapshot.py": "d7c455955d001edfda7c6e872af65554e2da81140a42cccc899f85cb4e23d3cb",
+    "scripts/portal.py": "f778b7481433ed214a729686821ddea95b18629251aa082a9561e40a02eaf106",
+    "workspaces.json": "fd74b14b7b5993a3bf0104d1537798d54623b7e6bac3a858cac241e80436ce1f"
+  },
+  "project_keys": [
+    "culinary"
+  ],
+  "schema": 1,
+  "workspace_ids": [
+    "culinary"
+  ]
+}

@@ -1,0 +1,1264 @@
+{
+  "schema": 1,
+  "project": "culinary",
+  "author": "culinary project author (Prime child; not independent reviewer)",
+  "sources": [
+    {
+      "path": ".githooks/docs-pre-commit",
+      "role": "deployment_and_crawl_config"
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "role": "deployment_and_crawl_config"
+    },
+    {
+      "path": ".gitignore",
+      "role": "deployment_and_crawl_config"
+    },
+    {
+      "path": ".nojekyll",
+      "role": "empty_static_marker"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "root_instructions"
+    },
+    {
+      "path": "ASSET-SOURCES.json",
+      "role": "asset_provenance; provenance read, signed capture URL not reproduced"
+    },
+    {
+      "path": "CLAUDE.md",
+      "role": "root_instructions"
+    },
+    {
+      "path": "CLIENT-QUESTIONS.md",
+      "role": "project_docs"
+    },
+    {
+      "path": "CNAME",
+      "role": "deployment_and_crawl_config"
+    },
+    {
+      "path": "CONTEXT.md",
+      "role": "root_instructions"
+    },
+    {
+      "path": "DESIGN.md",
+      "role": "project_docs"
+    },
+    {
+      "path": "LAUNCH.md",
+      "role": "project_docs"
+    },
+    {
+      "path": "README.md",
+      "role": "project_docs"
+    },
+    {
+      "path": "build-blog.py",
+      "role": "generator_code"
+    },
+    {
+      "path": "build-menus.py",
+      "role": "generator_code"
+    },
+    {
+      "path": "content/blog/choosing-a-private-dinner-menu-for-different-preferences.html",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/choosing-a-private-dinner-menu-for-different-preferences.json",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/in-home-cooking-classes-planning-hands-on-experience.html",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/in-home-cooking-classes-planning-hands-on-experience.json",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.html",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.json",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/private-chef-dinner-or-event-catering-how-to-choose.html",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/private-chef-dinner-or-event-catering-how-to-choose.json",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.html",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.json",
+      "role": "authored_content"
+    },
+    {
+      "path": "docs/CONTEXT.md",
+      "role": "private_handbook_sources"
+    },
+    {
+      "path": "index.html",
+      "role": "authored_browser_runtime; deployed public access_key value redacted, never copied"
+    },
+    {
+      "path": "menus.json",
+      "role": "authored_content"
+    },
+    {
+      "path": "ops/verify-domain.sh",
+      "role": "network_ops_tool"
+    },
+    {
+      "path": "robots.txt",
+      "role": "deployment_and_crawl_config"
+    },
+    {
+      "path": "script.js",
+      "role": "authored_browser_runtime"
+    },
+    {
+      "path": "styles.css",
+      "role": "authored_browser_runtime"
+    },
+    {
+      "path": "tests/check-site.py",
+      "role": "offline_tests"
+    },
+    {
+      "path": "thank-you.html",
+      "role": "authored_browser_runtime"
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".firecrawl/about.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/cf.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/fs.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/ghhttps.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/ghlimits.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/ghpages.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/home-branding.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/home-screenshot.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/services.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/w3f.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/w3fhome.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": ".firecrawl/wix.json",
+      "reason": "Not read: ignored third-party scraped/reference response cache; may contain old signed URLs. No first-party runtime/interface ownership; live source no longer evidence of current state."
+    },
+    {
+      "path": "7df5b1e0b37de01c7a1cfb04fc1aa0f1.txt",
+      "reason": "Not read: opaque public site-verification material; filename/size and shipping allowlist examined. Exact verification contents not necessary to developer-doc behavior and intentionally not copied."
+    },
+    {
+      "path": "docs/handbook/_generated/Status.pdf",
+      "reason": "Not read: generated private handbook HTML/PDF/receipt; source handbook and checker/render implementation reviewed. Do not mistake prior generated receipt for semantic or current-live verification; no rebuild in this read-only audit."
+    },
+    {
+      "path": "docs/handbook/_generated/index.html",
+      "reason": "Not read: generated private handbook HTML/PDF/receipt; source handbook and checker/render implementation reviewed. Do not mistake prior generated receipt for semantic or current-live verification; no rebuild in this read-only audit."
+    },
+    {
+      "path": "docs/handbook/_generated/receipt.json",
+      "reason": "Not read: generated private handbook HTML/PDF/receipt; source handbook and checker/render implementation reviewed. Do not mistake prior generated receipt for semantic or current-live verification; no rebuild in this read-only audit."
+    },
+    {
+      "path": "favicon.ico",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "googledf779ae90efe8e8f.html",
+      "reason": "Not read: opaque public site-verification material; filename/size and shipping allowlist examined. Exact verification contents not necessary to developer-doc behavior and intentionally not copied."
+    },
+    {
+      "path": "preview/desktop-full-cdp.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/desktop-full.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/desktop.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/mobile-full-cdp.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/mobile-full.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/mobile.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-01.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-02.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-03.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-04.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-05.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-06.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-07.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-08.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-09.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/page-10.png",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "preview/site-desktop.pdf",
+      "reason": "Not read: ignored historical binary screenshot/PDF evidence, not authored program, fixture, or current acceptance result. Visual review/new captures out of audit scope."
+    },
+    {
+      "path": "public/assets/about-chef-1.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/about-chef-2.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/about-chef-3.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/apple-touch-icon.png",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/hero.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/logo-256.png",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/logo.png",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/service-catering.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/service-classes.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/service-consulting.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/service-meal-prep.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/service-private-chef.jpg",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "public/assets/source-home-full.png",
+      "reason": "Not decoded/read: binary public imagery/icon. Filenames, size metadata and authored reference/provenance reviewed; no code/API. Rights not inferred from possession; source-home-full.png excluded from deploy."
+    },
+    {
+      "path": "blog/choosing-a-private-dinner-menu-for-different-preferences/index.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "blog/feed.xml",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "blog/in-home-cooking-classes-planning-hands-on-experience/index.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "blog/index.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "blog/planning-private-chef-dinner-south-florida-gulf-coast/index.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "blog/private-chef-dinner-or-event-catering-how-to-choose/index.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "blog/what-to-discuss-before-booking-weekly-meal-preparation/index.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "menus.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "sitemap.xml",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
+      "path": "docs/handbook/_generated/",
+      "reason": "Historical script-owned private handbook views retained, not admitted reader input or fresh acceptance evidence. Author does not write/rebuild them; excluded view-byte drift observed during final scope check is reported separately."
+    },
+    {
+      "path": ".git/",
+      "reason": "Git internal object/index/runtime metadata is not reader/source input; safe read-only status/ls-files and commit identity only."
+    },
+    {
+      "path": ".docs-check/",
+      "reason": "DERIVED generated portable policy bundle owned by shared fleet-index documentation/enforce.py. Actual workflow/hook callsites remain declared authored source. Copied executors, schemas, selected registry and receipt are not hashed into their own project acceptance; shared generator/member/submitted-index evidence is separate."
+    }
+  ],
+  "pages": [
+    {
+      "id": "index",
+      "kind": "overview",
+      "sources": [
+        "CLAUDE.md",
+        "README.md",
+        "LAUNCH.md"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "kind": "overview",
+      "sources": [
+        "AGENTS.md",
+        "README.md",
+        "LAUNCH.md",
+        "CLIENT-QUESTIONS.md",
+        "DESIGN.md"
+      ]
+    },
+    {
+      "id": "developer/setup-and-project-map",
+      "kind": "developer",
+      "sources": [
+        "README.md",
+        "build-blog.py",
+        "build-menus.py",
+        ".github/workflows/deploy-pages.yml",
+        "script.js",
+        "styles.css",
+        "docs/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "architecture",
+      "kind": "concept",
+      "sources": [
+        "index.html",
+        "script.js",
+        "styles.css",
+        "build-menus.py",
+        "build-blog.py",
+        ".github/workflows/deploy-pages.yml"
+      ]
+    },
+    {
+      "id": "architecture/source-to-public-artifact",
+      "kind": "concept",
+      "sources": [
+        "build-menus.py",
+        "build-blog.py",
+        ".github/workflows/deploy-pages.yml",
+        "README.md"
+      ]
+    },
+    {
+      "id": "architecture/inquiry-and-personal-data",
+      "kind": "concept",
+      "sources": [
+        "index.html",
+        "script.js",
+        "thank-you.html",
+        "LAUNCH.md"
+      ]
+    },
+    {
+      "id": "tutorials/check-the-shipped-site-offline",
+      "kind": "tutorial",
+      "sources": [
+        "tests/check-site.py",
+        "README.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "tutorials/trace-a-menu-inquiry",
+      "kind": "tutorial",
+      "sources": [
+        "menus.json",
+        "build-menus.py",
+        "index.html",
+        "script.js"
+      ]
+    },
+    {
+      "id": "how-to/update-menus",
+      "kind": "how-to",
+      "sources": [
+        "README.md",
+        "menus.json",
+        "build-menus.py",
+        "index.html",
+        "CLIENT-QUESTIONS.md"
+      ]
+    },
+    {
+      "id": "how-to/write-and-rebuild-an-article",
+      "kind": "how-to",
+      "sources": [
+        "README.md",
+        "build-blog.py",
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.json",
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.html"
+      ]
+    },
+    {
+      "id": "how-to/change-or-retire-article-source",
+      "kind": "how-to",
+      "sources": [
+        "build-blog.py",
+        "README.md",
+        ".github/workflows/deploy-pages.yml"
+      ]
+    },
+    {
+      "id": "how-to/preview-and-review-interactions",
+      "kind": "how-to",
+      "sources": [
+        "README.md",
+        "script.js",
+        "index.html",
+        "styles.css"
+      ]
+    },
+    {
+      "id": "how-to/review-publication-and-domain-evidence",
+      "kind": "how-to",
+      "sources": [
+        ".github/workflows/deploy-pages.yml",
+        "README.md",
+        "LAUNCH.md",
+        "ops/verify-domain.sh",
+        "robots.txt"
+      ]
+    },
+    {
+      "id": "developer/testing-and-extension-points",
+      "kind": "developer",
+      "sources": [
+        "tests/check-site.py",
+        "LAUNCH.md",
+        ".github/workflows/deploy-pages.yml",
+        "build-menus.py",
+        "build-blog.py",
+        "index.html",
+        "script.js"
+      ]
+    },
+    {
+      "id": "reference/generator-and-checker-cli",
+      "kind": "reference",
+      "sources": [
+        "build-menus.py",
+        "build-blog.py",
+        "tests/check-site.py",
+        "ops/verify-domain.sh",
+        ".githooks/docs-pre-commit",
+        ".github/workflows/deploy-pages.yml"
+      ]
+    },
+    {
+      "id": "reference/menu-source",
+      "kind": "reference",
+      "sources": [
+        "menus.json",
+        "build-menus.py",
+        "index.html"
+      ]
+    },
+    {
+      "id": "reference/article-source-and-metadata",
+      "kind": "reference",
+      "sources": [
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.json",
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.html",
+        "build-blog.py",
+        "tests/check-site.py",
+        "content/blog/choosing-a-private-dinner-menu-for-different-preferences.html",
+        "content/blog/choosing-a-private-dinner-menu-for-different-preferences.json",
+        "content/blog/in-home-cooking-classes-planning-hands-on-experience.html",
+        "content/blog/in-home-cooking-classes-planning-hands-on-experience.json",
+        "content/blog/private-chef-dinner-or-event-catering-how-to-choose.html",
+        "content/blog/private-chef-dinner-or-event-catering-how-to-choose.json",
+        "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.html",
+        "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.json"
+      ]
+    },
+    {
+      "id": "reference/browser-contracts-and-form",
+      "kind": "reference",
+      "sources": [
+        "index.html",
+        "script.js",
+        "styles.css"
+      ]
+    },
+    {
+      "id": "reference/design-assets-and-crawl",
+      "kind": "reference",
+      "sources": [
+        "styles.css",
+        "index.html",
+        "ASSET-SOURCES.json",
+        "DESIGN.md",
+        "robots.txt",
+        "thank-you.html",
+        "build-blog.py"
+      ]
+    },
+    {
+      "id": "operations/verification-and-troubleshooting",
+      "kind": "how-to",
+      "sources": [
+        "tests/check-site.py",
+        "build-menus.py",
+        "build-blog.py",
+        "script.js",
+        ".github/workflows/deploy-pages.yml",
+        "LAUNCH.md"
+      ]
+    },
+    {
+      "id": "maintenance/change-impact-and-docs-ownership",
+      "kind": "developer",
+      "sources": [
+        "AGENTS.md",
+        "CONTEXT.md",
+        "docs/CONTEXT.md",
+        ".githooks/docs-pre-commit",
+        ".github/workflows/deploy-pages.yml"
+      ]
+    },
+    {
+      "id": "tutorials/trace-an-existing-article",
+      "kind": "tutorial",
+      "sources": [
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.json",
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.html",
+        "build-blog.py"
+      ]
+    },
+    {
+      "id": "status",
+      "kind": "status",
+      "sources": [
+        "LAUNCH.md",
+        "README.md",
+        "CLIENT-QUESTIONS.md",
+        "tests/check-site.py",
+        ".github/workflows/deploy-pages.yml"
+      ]
+    },
+    {
+      "id": "guide",
+      "kind": "overview",
+      "sources": [
+        "README.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "CONTEXT",
+      "kind": "overview",
+      "sources": [
+        "CLAUDE.md",
+        "CONTEXT.md",
+        "docs/CONTEXT.md"
+      ]
+    },
+    {
+      "id": "reference/dependencies-and-configuration",
+      "kind": "reference",
+      "sources": [
+        "build-blog.py",
+        "build-menus.py",
+        "tests/check-site.py",
+        "script.js",
+        ".github/workflows/deploy-pages.yml",
+        "ops/verify-domain.sh",
+        ".gitignore",
+        ".nojekyll",
+        "CNAME",
+        "robots.txt"
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "menu-builder",
+      "kind": "cli",
+      "source": "build-menus.py",
+      "docs": [
+        "reference/generator-and-checker-cli#menu-builder",
+        "architecture/source-to-public-artifact#menu-lifecycle",
+        "how-to/update-menus"
+      ],
+      "claims": [
+        "optional-input-path-default",
+        "script-adjacent-write-root",
+        "ignored-extra-args",
+        "no-help-dry-run",
+        "menu-before-home-partial-write",
+        "first-four-course-preview"
+      ]
+    },
+    {
+      "id": "blog-builder",
+      "kind": "cli",
+      "source": "build-blog.py",
+      "docs": [
+        "reference/generator-and-checker-cli#blog-builder",
+        "architecture/source-to-public-artifact#article-lifecycle",
+        "how-to/write-and-rebuild-an-article"
+      ],
+      "claims": [
+        "utc-date-gate",
+        "slug-date-image-checks",
+        "eligible-pair-input",
+        "sort-and-reading-time",
+        "five-output-groups",
+        "nontransactional-no-prune-no-schedule"
+      ]
+    },
+    {
+      "id": "menu-data",
+      "kind": "json-file",
+      "source": "menus.json",
+      "docs": [
+        "reference/menu-source",
+        "tutorials/trace-a-menu-inquiry"
+      ],
+      "claims": [
+        "required-optional-fields",
+        "ordered-seven-menus-29-courses-240-items",
+        "escaped-text-not-id-validation",
+        "editorial-arrays-not-rendered"
+      ]
+    },
+    {
+      "id": "blog-data",
+      "kind": "json-html-pair",
+      "source": "build-blog.py",
+      "docs": [
+        "reference/article-source-and-metadata",
+        "tutorials/trace-an-existing-article"
+      ],
+      "claims": [
+        "all-eleven-metadata-fields",
+        "same-stem-body",
+        "trusted-html-not-sanitized",
+        "exact-h2-toc-pattern",
+        "image-existence-not-license",
+        "seo-rss-sitemap"
+      ]
+    },
+    {
+      "id": "html-native-inquiry",
+      "kind": "external-form",
+      "source": "index.html",
+      "docs": [
+        "reference/browser-contracts-and-form#html-form-contract",
+        "architecture/inquiry-and-personal-data"
+      ],
+      "claims": [
+        "required-name-email-location",
+        "native-hidden-fields",
+        "provider-action",
+        "separate-native-redirect",
+        "no-js-placeholder-fallback-absent"
+      ]
+    },
+    {
+      "id": "enhanced-inquiry",
+      "kind": "browser-request",
+      "source": "script.js",
+      "docs": [
+        "reference/browser-contracts-and-form#enhanced-json-request",
+        "reference/browser-contracts-and-form#response-and-fallback-contract"
+      ],
+      "claims": [
+        "payload-field-mapping-defaults",
+        "http-and-explicit-json-success",
+        "contact-error-fallback",
+        "no-timeout-retry",
+        "bfcache-reset"
+      ]
+    },
+    {
+      "id": "unconfigured-mailto",
+      "kind": "browser-navigation",
+      "source": "script.js",
+      "docs": [
+        "reference/browser-contracts-and-form#response-and-fallback-contract",
+        "architecture/inquiry-and-personal-data"
+      ],
+      "claims": [
+        "blank-placeholder-routing",
+        "encodeURIComponent",
+        "two-second-contact-fallback",
+        "draft-not-delivery"
+      ]
+    },
+    {
+      "id": "menu-preselection",
+      "kind": "url-query",
+      "source": "script.js",
+      "docs": [
+        "reference/browser-contracts-and-form#menu-query",
+        "tutorials/trace-a-menu-inquiry"
+      ],
+      "claims": [
+        "case-insensitive-static-option-match",
+        "unknown-ignored",
+        "manual-option-data-coupling"
+      ]
+    },
+    {
+      "id": "mobile-nav",
+      "kind": "dom-events",
+      "source": "script.js",
+      "docs": [
+        "reference/browser-contracts-and-form#dom-and-navigation-bindings",
+        "how-to/preview-and-review-interactions"
+      ],
+      "claims": [
+        "toggle-class-aria",
+        "link-outside-escape-dismiss",
+        "escape-focus-return",
+        "resize-above1200"
+      ]
+    },
+    {
+      "id": "css-layout",
+      "kind": "css",
+      "source": "styles.css",
+      "docs": [
+        "reference/design-assets-and-crawl#actual-css-tokens",
+        "reference/design-assets-and-crawl#responsive-contracts"
+      ],
+      "claims": [
+        "tokens-and-gold-ink",
+        "focus-skip-hidden-nav",
+        "1200-900-750-600-390-breakpoints",
+        "modern-browser-no-matrix"
+      ]
+    },
+    {
+      "id": "offline-site-check",
+      "kind": "cli-test",
+      "source": "tests/check-site.py",
+      "docs": [
+        "reference/generator-and-checker-cli#offline-site-checker",
+        "tutorials/check-the-shipped-site-offline",
+        "developer/testing-and-extension-points"
+      ],
+      "claims": [
+        "no-write-network",
+        "assertions-must-enabled",
+        "local-html-xml-inputs",
+        "selected-schema-links-not-js-delivery-freshness"
+      ]
+    },
+    {
+      "id": "pages-deploy",
+      "kind": "workflow",
+      "source": ".github/workflows/deploy-pages.yml",
+      "docs": [
+        "how-to/review-publication-and-domain-evidence",
+        "reference/dependencies-and-configuration#workflow-and-copied-documentation-dependencies",
+        "reference/generator-and-checker-cli#submitted-index-documentation-check"
+      ],
+      "claims": [
+        "main-manual-not-schedule",
+        "permissions-concurrency",
+        "portable-submitted-index-check-before-blog",
+        "exact-seven-derived-policy-files",
+        "setup-python312-existing-parser-pins",
+        "no-menu-build-site-check",
+        "root-allowlist-and-broad-blog-assets"
+      ]
+    },
+    {
+      "id": "domain-check",
+      "kind": "cli-network",
+      "source": "ops/verify-domain.sh",
+      "docs": [
+        "reference/generator-and-checker-cli#domain-diagnostic",
+        "how-to/review-publication-and-domain-evidence"
+      ],
+      "claims": [
+        "rdap-dns-http-effects",
+        "hardcoded-domain",
+        "tool-requirements",
+        "printed-values-not-health-assertions",
+        "not-executed"
+      ]
+    },
+    {
+      "id": "configuration-and-env",
+      "kind": "source-constants",
+      "source": "script.js",
+      "docs": [
+        "reference/dependencies-and-configuration",
+        "reference/browser-contracts-and-form#response-and-fallback-contract"
+      ],
+      "claims": [
+        "no-app-env-interface",
+        "html-routing",
+        "separate-js-fallback-redirect-constants",
+        "source-origin-dates"
+      ]
+    },
+    {
+      "id": "crawl-identity",
+      "kind": "html-jsonld",
+      "source": "index.html",
+      "docs": [
+        "reference/design-assets-and-crawl#canonical-structured-and-crawl-data",
+        "reference/article-source-and-metadata#generated-metadata-and-feeds"
+      ],
+      "claims": [
+        "home-localbusiness-person-website",
+        "article-breadcrumb-blogposting",
+        "client-claims-not-credential-validation",
+        "no-indexing-guarantee"
+      ]
+    },
+    {
+      "id": "crawl-policy",
+      "kind": "text-config",
+      "source": "robots.txt",
+      "docs": [
+        "reference/design-assets-and-crawl#canonical-structured-and-crawl-data"
+      ],
+      "claims": [
+        "allow-and-disallow-hints",
+        "not-access-control",
+        "thankyou-unblocked-noindex"
+      ]
+    },
+    {
+      "id": "confirmation",
+      "kind": "html",
+      "source": "thank-you.html",
+      "docs": [
+        "architecture/inquiry-and-personal-data",
+        "reference/design-assets-and-crawl#canonical-structured-and-crawl-data"
+      ],
+      "claims": [
+        "noindex",
+        "human-reply-copy-not-reservation",
+        "openable-url-not-receipt"
+      ]
+    },
+    {
+      "id": "assets-provenance",
+      "kind": "json-file",
+      "source": "ASSET-SOURCES.json",
+      "docs": [
+        "reference/design-assets-and-crawl#asset-provenance-and-rights"
+      ],
+      "claims": [
+        "source-and-size-not-license",
+        "no-signed-url-export",
+        "derivatives-not-invented"
+      ]
+    },
+    {
+      "id": "source-ignore",
+      "kind": "git-config",
+      "source": ".gitignore",
+      "docs": [
+        "reference/dependencies-and-configuration#workflow-and-copied-documentation-dependencies"
+      ],
+      "claims": [
+        "ignored-preview-scrape-capture",
+        "exact-manifest-review-exceptions",
+        "recursive-generated-private-doc-patterns",
+        "ignore-not-untrack",
+        "ignore-not-publish-boundary"
+      ]
+    },
+    {
+      "id": "custom-domain-file",
+      "kind": "text-config",
+      "source": "CNAME",
+      "docs": [
+        "reference/dependencies-and-configuration#configuration-owners",
+        "how-to/review-publication-and-domain-evidence"
+      ],
+      "claims": [
+        "conditionally-shipped",
+        "pages-setting-authority-not-live-verified"
+      ]
+    },
+    {
+      "id": "empty-site-marker",
+      "kind": "static-marker",
+      "source": ".nojekyll",
+      "docs": [
+        "reference/dependencies-and-configuration#workflow-and-copied-documentation-dependencies"
+      ],
+      "claims": [
+        "empty-shipping-marker"
+      ]
+    },
+    {
+      "id": "docs-hook",
+      "kind": "hook",
+      "source": ".githooks/docs-pre-commit",
+      "docs": [
+        "maintenance/change-impact-and-docs-ownership#two-different-gates"
+      ],
+      "claims": [
+        "shared-enforce-call",
+        "hook-file-not-universal-enforcement"
+      ]
+    },
+    {
+      "id": "owner-authorities",
+      "kind": "records",
+      "source": "LAUNCH.md",
+      "docs": [
+        "collaboration",
+        "status",
+        "how-to/review-publication-and-domain-evidence"
+      ],
+      "claims": [
+        "dated-confirmation-not-current-live",
+        "preflight-limit",
+        "decisions-and-owner-boundaries"
+      ]
+    },
+    {
+      "id": "editorial-open-questions",
+      "kind": "records",
+      "source": "CLIENT-QUESTIONS.md",
+      "docs": [
+        "collaboration#limitations-and-blockers",
+        "reference/menu-source#editorial-approval"
+      ],
+      "claims": [
+        "no-invented-client-answers",
+        "asset-rights-and-menu-approval"
+      ]
+    },
+    {
+      "id": "historical-design",
+      "kind": "record",
+      "source": "DESIGN.md",
+      "docs": [
+        "collaboration#decisions-that-affect-contributors",
+        "reference/design-assets-and-crawl#asset-provenance-and-rights"
+      ],
+      "claims": [
+        "prototype-form-claim-superseded",
+        "css-determines-current-layout"
+      ]
+    },
+    {
+      "id": "article-choosing-a-private-dinner-menu-for-different-preferences-body",
+      "kind": "authored-public-article",
+      "source": "content/blog/choosing-a-private-dinner-menu-for-different-preferences.html",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-choosing-a-private-dinner-menu-for-different-preferences-metadata",
+      "kind": "authored-public-article",
+      "source": "content/blog/choosing-a-private-dinner-menu-for-different-preferences.json",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-in-home-cooking-classes-planning-hands-on-experience-body",
+      "kind": "authored-public-article",
+      "source": "content/blog/in-home-cooking-classes-planning-hands-on-experience.html",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-in-home-cooking-classes-planning-hands-on-experience-metadata",
+      "kind": "authored-public-article",
+      "source": "content/blog/in-home-cooking-classes-planning-hands-on-experience.json",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-planning-private-chef-dinner-south-florida-gulf-coast-body",
+      "kind": "authored-public-article",
+      "source": "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.html",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-planning-private-chef-dinner-south-florida-gulf-coast-metadata",
+      "kind": "authored-public-article",
+      "source": "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.json",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-private-chef-dinner-or-event-catering-how-to-choose-body",
+      "kind": "authored-public-article",
+      "source": "content/blog/private-chef-dinner-or-event-catering-how-to-choose.html",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-private-chef-dinner-or-event-catering-how-to-choose-metadata",
+      "kind": "authored-public-article",
+      "source": "content/blog/private-chef-dinner-or-event-catering-how-to-choose.json",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-what-to-discuss-before-booking-weekly-meal-preparation-body",
+      "kind": "authored-public-article",
+      "source": "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.html",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    },
+    {
+      "id": "article-what-to-discuss-before-booking-weekly-meal-preparation-metadata",
+      "kind": "authored-public-article",
+      "source": "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.json",
+      "docs": [
+        "reference/article-source-and-metadata"
+      ],
+      "claims": [
+        "reviewed-public-copy-not-customer-record",
+        "schema-pair-input",
+        "trusted-body-or-fields"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "offline-site-check",
+      "page": "tutorials/check-the-shipped-site-offline",
+      "command": [
+        "python3",
+        "tests/check-site.py"
+      ],
+      "effects": "Read current local public HTML/XML and target metadata only; no write/network/server/submit.",
+      "expected": "Exit 0 PASS summary; author snapshot: 9 pages, 308 internal links, 8 sitemap URLs and RSS."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "first-offline-result",
+      "role": "first-use",
+      "start": "index",
+      "pages": [
+        "developer/setup-and-project-map",
+        "tutorials/check-the-shipped-site-offline"
+      ],
+      "success": "Reader runs the documented existing Python checker without install/server/write/submission and distinguishes PASS scope from live delivery."
+    },
+    {
+      "id": "trace-menu-contract",
+      "role": "maintainer",
+      "start": "index",
+      "pages": [
+        "tutorials/trace-a-menu-inquiry",
+        "reference/menu-source",
+        "reference/browser-contracts-and-form"
+      ],
+      "success": "Reader identifies italian-feast source id, request URL, static option and case-insensitive preselection; explains new-menu manual coupling without submitting."
+    },
+    {
+      "id": "trace-article-impact",
+      "role": "developer",
+      "start": "index",
+      "pages": [
+        "tutorials/trace-an-existing-article",
+        "architecture/source-to-public-artifact",
+        "reference/article-source-and-metadata",
+        "how-to/change-or-retire-article-source"
+      ],
+      "success": "Reader identifies all article/index/home/feed/sitemap outputs, UTC gate, trusted body and no-prune/partial-write risk without running builder."
+    },
+    {
+      "id": "safe-publication-review",
+      "role": "release-reviewer",
+      "start": "collaboration",
+      "pages": [
+        "how-to/review-publication-and-domain-evidence",
+        "reference/generator-and-checker-cli",
+        "status"
+      ],
+      "success": "Reader identifies public allowlist, absent menu/site-check CI steps and separate owner approval/live evidence without publishing."
+    }
+  ],
+  "not_applicable": [
+    {
+      "topic": "application-http-server-or-rest-api",
+      "reason": "No app server or database; only external browser form relay. Native/enhanced request contracts documented instead."
+    },
+    {
+      "topic": "framework-package-install-or-dev-daemon",
+      "reason": "No app package manifest/framework/install flow; standard-library maintenance and optional loopback preview are the actual interfaces."
+    },
+    {
+      "topic": "application-env-var-precedence",
+      "reason": "No app environment reads/config layering; source constants and markup owners documented."
+    },
+    {
+      "topic": "cms-plugin-admin-or-auth-api",
+      "reason": "Authored JSON/HTML pairs and static website, not a CMS/admin/auth product."
+    },
+    {
+      "topic": "in-repo-weekly-scheduler",
+      "reason": "Only main/manual Pages workflow; referenced weekly writer/reminder belongs to external business owner and is not inspected."
+    },
+    {
+      "topic": "browser-test-fixture-suite",
+      "reason": "Only current-output offline checker persists. Historical launch browser tests are not a shipped executable suite."
+    },
+    {
+      "topic": "live-business-runtime-acceptance",
+      "reason": "No current network/inbox/provider/domain/browser acceptance authorized or performed; dated source authority and limits documented."
+    }
+  ]
+}

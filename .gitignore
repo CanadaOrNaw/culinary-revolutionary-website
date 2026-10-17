@@ -2,3 +2,34 @@
 preview/
 public/assets/source-home-full.png
 .DS_Store
+
+# Only canonical review inputs; generated and private documentation stay ignored.
+/docs/verification/*
+!/docs/verification/manifest.json
+!/docs/verification/review.json
+/docs/handbook/assets/
+/docs/**/_generated/
+/docs/**/.generated/
+/docs/**/build/
+/docs/**/node_modules/
+/docs/**/.fixture/
+/docs/handbook/**/.env*
+/docs/handbook/**/*.env
+/docs/handbook/**/credentials*
+/docs/handbook/**/*.log
+/docs/handbook/**/*.db
+/.docs-check/
+# CI validator source bundle: only the seven reviewed files are includable.
+!/.docs-check/
+/.docs-check/*
+!/.docs-check/scripts/
+/.docs-check/scripts/*
+!/.docs-check/scripts/check_index.py
+!/.docs-check/scripts/index_snapshot.py
+!/.docs-check/scripts/portal.py
+!/.docs-check/schemas/
+/.docs-check/schemas/*
+!/.docs-check/schemas/manifest.schema.json
+!/.docs-check/schemas/review.schema.json
+!/.docs-check/workspaces.json
+!/.docs-check/receipt.json

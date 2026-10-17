@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "workspaces": [
+    {
+      "git_root": "/__docs_checkout__",
+      "id": "culinary",
+      "kind": "maintained",
+      "root": "/__docs_checkout__",
+      "site": {
+        "key": "culinary",
+        "navigation": "sidebar.json",
+        "owner": "Zack / project maintainer",
+        "public_source_paths": {
+          "content/blog/choosing-a-private-dinner-menu-for-different-preferences.html": "Audited authored public Culinary blog article metadata/body; private-chef/private-dinner names describe offered services, not private records. build-blog.py publishes these reviewed source pairs.",
+          "content/blog/choosing-a-private-dinner-menu-for-different-preferences.json": "Audited authored public Culinary blog article metadata/body; private-chef/private-dinner names describe offered services, not private records. build-blog.py publishes these reviewed source pairs.",
+          "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.html": "Audited authored public Culinary blog article metadata/body; private-chef/private-dinner names describe offered services, not private records. build-blog.py publishes these reviewed source pairs.",
+          "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.json": "Audited authored public Culinary blog article metadata/body; private-chef/private-dinner names describe offered services, not private records. build-blog.py publishes these reviewed source pairs.",
+          "content/blog/private-chef-dinner-or-event-catering-how-to-choose.html": "Audited authored public Culinary blog article metadata/body; private-chef/private-dinner names describe offered services, not private records. build-blog.py publishes these reviewed source pairs.",
+          "content/blog/private-chef-dinner-or-event-catering-how-to-choose.json": "Audited authored public Culinary blog article metadata/body; private-chef/private-dinner names describe offered services, not private records. build-blog.py publishes these reviewed source pairs."
+        },
+        "source": "docs/handbook",
+        "title": "Culinary Revolutionary",
+        "verification": "docs/verification"
+      },
+      "title": "Culinary Revolutionary"
+    }
+  ]
+}

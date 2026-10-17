@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Independent project review v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "project",
+    "reviewed_at",
+    "snapshot",
+    "impact",
+    "checks",
+    "claim_review",
+    "task_trials",
+    "limits",
+    "decision"
+  ],
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "project": {
+      "type": "string"
+    },
+    "reviewed_at": {
+      "type": "string"
+    },
+    "snapshot": {
+      "type": "object",
+      "required": [
+        "source_hashes",
+        "doc_hashes",
+        "manifest_hash"
+      ],
+      "properties": {
+        "source_hashes": {
+          "$ref": "#/$defs/hashes"
+        },
+        "doc_hashes": {
+          "$ref": "#/$defs/hashes"
+        },
+        "manifest_hash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "site_hash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "commit": {
+          "type": "string"
+        }
+      }
+    },
+    "impact": {
+      "type": "object",
+      "required": [
+        "base",
+        "changed_paths",
+        "affected_pages",
+        "affected_interfaces",
+        "no_doc_impact"
+      ],
+      "properties": {
+        "base": {
+          "type": "string"
+        },
+        "changed_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "affected_pages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "affected_interfaces": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "no_doc_impact": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "command",
+          "environment",
+          "effects",
+          "exit",
+          "outcome",
+          "evidence"
+        ],
+        "properties": {
+          "command": {
+            "type": "string"
+          },
+          "environment": {
+            "type": "string"
+          },
+          "effects": {
+            "type": "string"
+          },
+          "exit": {
+            "type": "integer"
+          },
+          "outcome": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "claim_review": {
+      "type": "object",
+      "required": [
+        "reviewer",
+        "changed_claims",
+        "source_observations",
+        "test_observations",
+        "findings",
+        "resolutions"
+      ],
+      "properties": {
+        "reviewer": {
+          "type": "string"
+        },
+        "changed_claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_observations": {
+          "type": "string"
+        },
+        "test_observations": {
+          "type": "string"
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "resolutions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "task_trials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reader",
+          "task",
+          "starting_state",
+          "observed_result",
+          "author_assistance"
+        ],
+        "properties": {
+          "reader": {
+            "type": "string"
+          },
+          "task": {
+            "type": "string"
+          },
+          "starting_state": {
+            "type": "string"
+          },
+          "observed_result": {
+            "type": "string"
+          },
+          "author_assistance": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "limits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "accepted",
+        "changes-required"
+      ]
+    }
+  },
+  "$defs": {
+    "hashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      }
+    }
+  }
+}
