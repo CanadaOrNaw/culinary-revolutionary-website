@@ -1,10 +1,8 @@
 ---
-title: Working guide routes
-description: Use task-specific guides instead of a compressed four-page manual.
-kind: overview
-source_ref:
-- README.md#L19-L117
-- AGENTS.md#L21-L31
+title: "Working guide routes"
+description: "Use task-specific guides instead of a compressed four-page manual."
+kind: "overview"
+source_ref: ["README.md#L19-L117", "AGENTS.md"]
 ---
 
 # Working guide routes

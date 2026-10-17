@@ -1,14 +1,8 @@
 ---
-title: Documentation maintenance and change impact
-description: Review exact changed interfaces, claim sources, examples and independent
-  acceptance without creating another tracker.
-kind: developer
-source_ref:
-- AGENTS.md#L21-L31
-- CONTEXT.md#L5-L24
-- docs/CONTEXT.md#L1-L5
-- .githooks/docs-pre-commit#L1-L4
-- .github/workflows/deploy-pages.yml#L35-L59
+title: "Documentation maintenance and change impact"
+description: "Review exact changed interfaces, claim sources, examples and independent acceptance without creating another tracker."
+kind: "developer"
+source_ref: ["AGENTS.md", "CONTEXT.md", "docs/CONTEXT.md#L1-L5", ".githooks/docs-pre-commit#L1-L4", ".github/workflows/deploy-pages.yml#L35-L59"]
 ---
 
 

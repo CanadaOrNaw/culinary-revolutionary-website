@@ -1,12 +1,8 @@
 ---
-title: Culinary Revolutionary
-description: Maintain the static chef website from approved source without confusing
-  local checks with live delivery.
-kind: overview
-source_ref:
-- CLAUDE.md#L1-L31
-- README.md#L3-L23
-- LAUNCH.md#L3-L21
+title: "Culinary Revolutionary"
+description: "Maintain the static chef website from approved source without confusing local checks with live delivery."
+kind: "overview"
+source_ref: ["CLAUDE.md", "README.md#L3-L23", "LAUNCH.md#L3-L21", "CONTEXT.md"]
 ---
 
 # Culinary Revolutionary
@@ -42,3 +38,7 @@ A local checker passing is useful. It is not evidence that a message reached the
 - Publishing and live inquiry tests need the owning business approval. A command printed here does not grant that approval.
 
 See [collaboration](collaboration.md) for decisions and contribution routes, and [maintenance](maintenance/change-impact-and-docs-ownership.md) for claim/source review before handoff.
+
+## Source and creative gates
+
+Menu data is `menus.json`, read by `build-menus.py`; article inputs are the selected `content/blog/` metadata/body files. The owner contract names exact input/output paths, client/Zack preview checkpoint and native audit. Generated pages are not canonical design/fact templates. Public Git deployment remains an external publication gate.

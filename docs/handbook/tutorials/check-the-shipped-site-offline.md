@@ -1,12 +1,8 @@
 ---
-title: Check the shipped site offline
-description: Get a first useful result with the existing no-write, no-network site
-  checker.
-kind: tutorial
-source_ref:
-- tests/check-site.py#L1-L80
-- README.md#L3-L17
-- AGENTS.md#L21-L23
+title: "Check the shipped site offline"
+description: "Get a first useful result with the existing no-write, no-network site checker."
+kind: "tutorial"
+source_ref: ["tests/check-site.py#L1-L80", "README.md#L3-L17", "AGENTS.md"]
 ---
 
 # Check the shipped site offline

@@ -1,12 +1,8 @@
 ---
-title: Handbook ownership
-description: Keep canonical reader documentation, private verification and generated
-  products in their separate owning layers.
-kind: overview
-source_ref:
-- CLAUDE.md#L21-L31
-- CONTEXT.md#L5-L24
-- docs/CONTEXT.md#L1-L5
+title: "Handbook ownership"
+description: "Keep canonical reader documentation, private verification and generated products in their separate owning layers."
+kind: "overview"
+source_ref: ["CLAUDE.md", "CONTEXT.md", "docs/CONTEXT.md#L1-L5"]
 ---
 
 # Handbook ownership

@@ -1,19 +1,49 @@
 {
   "schema": 1,
   "project": "culinary",
-  "reviewed_at": "2026-10-17T15:53:53.370074+00:00",
+  "reviewed_at": "2026-10-17T18:21:04.981162+00:00",
   "snapshot": {
+    "doc_hashes": {
+      "CONTEXT.md": "7c890e64c0fd822b53bd3c230281efe7524cddcb81c10823a6d9a5b2affc56e3",
+      "architecture.md": "cb55b9ca9baf0310d3db78ffee5be31b889f40622a6dc2bad564982992e48aed",
+      "architecture/inquiry-and-personal-data.md": "e835cb87ee089acdbca2a9cef112c3f614805b41eae9f8129daf7d2015c5c233",
+      "architecture/source-to-public-artifact.md": "d3af628abf6781f27f0ce0180ffbaa1b1e65ce59bcb080efe7a2ebb9da46c35c",
+      "collaboration.md": "77246ec523fda622ad0577cc6fd09203a253cd20e98de6064dd93c9403a72239",
+      "developer/setup-and-project-map.md": "34c3a2e1906ef8c46a4cda8a50e8df4bb357f573010cf4914713622528489cfd",
+      "developer/testing-and-extension-points.md": "0f4788e7890ad5bc437ec88e3700e449585725f810762b2a4920760395ec84bf",
+      "guide.md": "e14a35bc162f7499fae429206ff4e2e535d1e15afe8809e8ffde8cfc6813f926",
+      "how-to/change-or-retire-article-source.md": "e118915a4dc4ee291899dda24979d586c409042ba6ba9f0d9d34303451dc8d19",
+      "how-to/preview-and-review-interactions.md": "e853d71f0015a676474ee65b78a4c1f22b02f569246846e9f23c54c3090e3d3b",
+      "how-to/review-publication-and-domain-evidence.md": "11e792d93e3f1c1649673e865ab8f8fe0fc8cee7c5d54d9fc4310d95a890c554",
+      "how-to/update-menus.md": "4534edd6597ab04167cd2ddbd8ca9c62ea14fcb456f2c9ff1c81bc30d5f992de",
+      "how-to/write-and-rebuild-an-article.md": "6309c95a2c51e3e933f610d2659959525c4a258c9f6ccf5bbfe423a800498bb1",
+      "index.md": "b07b520b0b62df473f829c4183496aba68cbe288af9d5d783e61e782df4029fe",
+      "maintenance/change-impact-and-docs-ownership.md": "e22185eba4ce9c56327189b66b8c06dcdf7ffda145005486818887fc76d1c00b",
+      "operations/verification-and-troubleshooting.md": "a8eeb7cd9f9f65b239c9e676822842468ab99f39c178d19c3f1fc177fbfda645",
+      "reference/article-source-and-metadata.md": "d11105eeb5aa58434793bbc7be4cdb4e43b02b9e405c1a0d4b3bb17a2719d69a",
+      "reference/browser-contracts-and-form.md": "7065f66de2ebf3e25a0e671d6c435903ea67d2aa56bce8cf4e18fe2134596bba",
+      "reference/dependencies-and-configuration.md": "85073a03c15b9d6757c2498cd2bdb6cfd5d672c2f27c8fa124c7f5f6336cf6ec",
+      "reference/design-assets-and-crawl.md": "c2db51678ebcb0505eb580ebcc365bcc9808ef6ed8487343dcb931eb9e5b1c5d",
+      "reference/generator-and-checker-cli.md": "aa22f41fd852dc2fef074459d702ae9d370f0669aedf947038921b15ca10c9a3",
+      "reference/menu-source.md": "c1053a51e18c8328dbcf2f95affdc49b7b4e52fef9fdb85fd5d32d5e1cff986d",
+      "sidebar.json": "5244d543bf1134629e5c1d872d9bcba0f0ba0c9fc7c4416486b88253c9177191",
+      "status.md": "ce94b3ef9dfcb9fafae5ffb1f6be50c5ef8a3c10141a488387cfc1fdbca5abeb",
+      "tutorials/check-the-shipped-site-offline.md": "ea02155ea995f86f20eb1efc7149dbf89f0b5be534db5a6b447034effe269750",
+      "tutorials/trace-a-menu-inquiry.md": "a4e65341380f72b5ac7ea8ae35cdfd6b56f67e6ef761922d6eccd8f5dfaf75f8",
+      "tutorials/trace-an-existing-article.md": "5bc5010f8a6447ae465a08ba969f5acd306d1b9128b2f8019808ab4b0d509107"
+    },
+    "manifest_hash": "d386710c46f75b560a99958ceb34cfbab1e32038aef6b28b4d4b22e1295664e3",
     "source_hashes": {
       ".githooks/docs-pre-commit": "842e2f7b7f9eeeb4bd901a1e9b2260040b2e6904ef507dc4551eec8774402256",
       ".github/workflows/deploy-pages.yml": "4f23b9e152131232d5dba192c8be3844dff25d19a87707e80317ed5e6ed783de",
       ".gitignore": "970886ad31eb0cd9751892774b2cd8ade944baae6e035b0bdd90d6e484535fa5",
       ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "AGENTS.md": "75ee3102a80c54b6dec5833767f8296451b409489a4dc7325cecaf762c6f3c25",
+      "AGENTS.md": "a397450c353f0a03b7c39c8163214218c201edb53f358c862597b9a716555fcc",
       "ASSET-SOURCES.json": "4f25c63b708332ddfb97d1ca5db4bf91ca19ab391b8703e3080856d1ff5711e0",
-      "CLAUDE.md": "75ee3102a80c54b6dec5833767f8296451b409489a4dc7325cecaf762c6f3c25",
+      "CLAUDE.md": "a397450c353f0a03b7c39c8163214218c201edb53f358c862597b9a716555fcc",
       "CLIENT-QUESTIONS.md": "22b8da38bdf2db361059875d522f39b3931d2671757c13038dbbe22193276142",
       "CNAME": "17c88105d7046ae1b1006fc02045690d4066bf2758e906d2c0e5e63b2986e5b6",
-      "CONTEXT.md": "26434ecc4fdfdb60598e75e6cabda4582ab07b3e8d7eba64a395dd5d7c06f4f9",
+      "CONTEXT.md": "cc1b788f49fd948df7f10c0b7c501055f2af599e2c2a293bd22dcb07014c084b",
       "DESIGN.md": "94350dfbe5882dde67e79c559da29f6f46f3aef038c7d3c12c8ff778999b1bbb",
       "LAUNCH.md": "43559b1882756eb309dbeae5b6a27002a57ffe226e476a550fc8f01faa628650",
       "README.md": "333c08ddb62bb04c4ae2c24cea05266cb214855013b476f9713d40291ac93a9d",
@@ -38,67 +68,52 @@
       "styles.css": "b36b2e398e25558f7c2aeda28f8409c49e231706ed8d47453b070808137b7d83",
       "tests/check-site.py": "4354dea660686dca9c26030fc2e1fb47ee6541e2d8dfda103e09b678f0681c49",
       "thank-you.html": "815f236eb997ea5873fa07cf562d841d041366c6d65ca89c342c281bf39b9fed"
-    },
-    "doc_hashes": {
-      "CONTEXT.md": "da6a8aed5cc71bd392094e89b335179bc9b373ec506b70cc69e18af481b904f3",
-      "architecture.md": "cb55b9ca9baf0310d3db78ffee5be31b889f40622a6dc2bad564982992e48aed",
-      "architecture/inquiry-and-personal-data.md": "e835cb87ee089acdbca2a9cef112c3f614805b41eae9f8129daf7d2015c5c233",
-      "architecture/source-to-public-artifact.md": "d3af628abf6781f27f0ce0180ffbaa1b1e65ce59bcb080efe7a2ebb9da46c35c",
-      "collaboration.md": "7dfbb087e1bcdd6e8bf4349ed7b5996e4721d06e1cb0b6590e8cc08441d80609",
-      "developer/setup-and-project-map.md": "34c3a2e1906ef8c46a4cda8a50e8df4bb357f573010cf4914713622528489cfd",
-      "developer/testing-and-extension-points.md": "0f4788e7890ad5bc437ec88e3700e449585725f810762b2a4920760395ec84bf",
-      "guide.md": "6303fac32b7f68907e694bd9f757ee8999553c6fcdfb8d72db698d0bc715700d",
-      "how-to/change-or-retire-article-source.md": "e118915a4dc4ee291899dda24979d586c409042ba6ba9f0d9d34303451dc8d19",
-      "how-to/preview-and-review-interactions.md": "e853d71f0015a676474ee65b78a4c1f22b02f569246846e9f23c54c3090e3d3b",
-      "how-to/review-publication-and-domain-evidence.md": "11e792d93e3f1c1649673e865ab8f8fe0fc8cee7c5d54d9fc4310d95a890c554",
-      "how-to/update-menus.md": "4534edd6597ab04167cd2ddbd8ca9c62ea14fcb456f2c9ff1c81bc30d5f992de",
-      "how-to/write-and-rebuild-an-article.md": "6309c95a2c51e3e933f610d2659959525c4a258c9f6ccf5bbfe423a800498bb1",
-      "index.md": "defd4bb2ca7199b86c124eaa6f8d511f28f559859a4806861a22650ba5be68e9",
-      "maintenance/change-impact-and-docs-ownership.md": "9fe0ca05e66ba7af8720a077e5deb0aefc55d7ccc9ddadacb211200df70827f8",
-      "operations/verification-and-troubleshooting.md": "a8eeb7cd9f9f65b239c9e676822842468ab99f39c178d19c3f1fc177fbfda645",
-      "reference/article-source-and-metadata.md": "d11105eeb5aa58434793bbc7be4cdb4e43b02b9e405c1a0d4b3bb17a2719d69a",
-      "reference/browser-contracts-and-form.md": "7065f66de2ebf3e25a0e671d6c435903ea67d2aa56bce8cf4e18fe2134596bba",
-      "reference/dependencies-and-configuration.md": "85073a03c15b9d6757c2498cd2bdb6cfd5d672c2f27c8fa124c7f5f6336cf6ec",
-      "reference/design-assets-and-crawl.md": "c2db51678ebcb0505eb580ebcc365bcc9808ef6ed8487343dcb931eb9e5b1c5d",
-      "reference/generator-and-checker-cli.md": "aa22f41fd852dc2fef074459d702ae9d370f0669aedf947038921b15ca10c9a3",
-      "reference/menu-source.md": "c1053a51e18c8328dbcf2f95affdc49b7b4e52fef9fdb85fd5d32d5e1cff986d",
-      "sidebar.json": "5244d543bf1134629e5c1d872d9bcba0f0ba0c9fc7c4416486b88253c9177191",
-      "status.md": "ce94b3ef9dfcb9fafae5ffb1f6be50c5ef8a3c10141a488387cfc1fdbca5abeb",
-      "tutorials/check-the-shipped-site-offline.md": "622f0d35be9606e334442bbd7e927ab72df110cfa6bc32610bfa746cecd0c186",
-      "tutorials/trace-a-menu-inquiry.md": "a4e65341380f72b5ac7ea8ae35cdfd6b56f67e6ef761922d6eccd8f5dfaf75f8",
-      "tutorials/trace-an-existing-article.md": "5bc5010f8a6447ae465a08ba969f5acd306d1b9128b2f8019808ab4b0d509107"
-    },
-    "manifest_hash": "4ae831a40ab91c1c6826b571bb8337402b1f0a4cb006af4a484961aabd5c8c2d"
+    }
   },
   "impact": {
-    "base": "Existing independent source/content/task review plus current final maintainer delta comparison",
+    "base": "Prior complete independent source/content/task review retained verbatim in prior_independent_before_final_icm_verification; this independent pass reviewed all28 maintained owner forms/primary patterns and actual source/reader controls, then the one consolidated final correction pass against exact frozen current bytes.",
     "changed_paths": [
       ".github/workflows/deploy-pages.yml",
       ".gitignore",
+      "AGENTS.md",
+      "CLAUDE.md",
       "CONTEXT.md",
       "architecture.md",
       "developer/setup-and-project-map.md",
       "developer/testing-and-extension-points.md",
+      "docs/handbook/CONTEXT.md",
+      "docs/handbook/collaboration.md",
+      "docs/handbook/guide.md",
+      "docs/handbook/index.md",
+      "docs/handbook/maintenance/change-impact-and-docs-ownership.md",
+      "docs/handbook/tutorials/check-the-shipped-site-offline.md",
+      "docs/verification/manifest.json",
       "how-to/review-publication-and-domain-evidence.md",
       "maintenance/change-impact-and-docs-ownership.md",
+      "manifest.json",
       "operations/verification-and-troubleshooting.md",
       "reference/dependencies-and-configuration.md",
-      "reference/generator-and-checker-cli.md",
-      "manifest.json"
+      "reference/generator-and-checker-cli.md"
     ],
     "affected_pages": [
       "CONTEXT",
       "architecture",
+      "collaboration",
       "developer/setup-and-project-map",
       "developer/testing-and-extension-points",
+      "guide",
       "how-to/review-publication-and-domain-evidence",
+      "index",
       "maintenance/change-impact-and-docs-ownership",
       "operations/verification-and-troubleshooting",
       "reference/dependencies-and-configuration",
-      "reference/generator-and-checker-cli"
+      "reference/generator-and-checker-cli",
+      "tutorials/check-the-shipped-site-offline"
     ],
     "affected_interfaces": [],
-    "no_doc_impact": []
+    "no_doc_impact": [
+      "ICM completion changes contracts/routes/reader explanations, source-map/navigation and exact review only. Native application source/runtime/constants, private payloads, existing human approvals, external effect/state and product behavior unchanged; no runtime proof inferred."
+    ]
   },
   "checks": [
     {
@@ -140,19 +155,37 @@
       "exit": 0,
       "outcome": "Current snapshot, citation bounds and source/claim corrections verified; independent task evidence is preserved, not newly fabricated",
       "evidence": "/tmp/documentation-final-validation/snapshots.json; reader-source-audit.json; /tmp/finish-final-claims.json; original /tmp/hermes-docs-redo-2026-10-16/culinary-independent-review.json"
+    },
+    {
+      "command": "/usr/bin/python3 -B /home/zack/Projects/fleet-index/_system/documentation/site/scripts/portal.py snapshot --registry /home/zack/Projects/fleet-index/_system/documentation/workspaces.json --project culinary",
+      "environment": "Native system /usr/bin/python3 -B with installed portal dependencies; no project imported into orchestration kernel",
+      "effects": "Read declared current source/reader/sidebar/manifest bytes only; no runtime/build/index/remote operation",
+      "exit": 0,
+      "outcome": "Exact current source/page/sidebar/manifest snapshot valid; source/task claims independently reviewed, not accepted by hash alone",
+      "evidence": "/home/zack/Projects/fleet-index/09_audit/03_reports/2026-10-17-fidelity-execution/icm-completion/independent-system-verification.json final_native_snapshots.culinary"
+    },
+    {
+      "command": "/usr/bin/python3 -B /home/zack/Projects/fleet-index/_system/documentation/site/scripts/portal.py check --registry /home/zack/Projects/fleet-index/_system/documentation/workspaces.json --project culinary --json",
+      "environment": "Native project documentation portal CLI",
+      "effects": "Read-only source/nav/link/manifest and prior-review consistency; no operational action",
+      "exit": 1,
+      "outcome": "Before independent receipt update: pending / review changes-required",
+      "evidence": "/home/zack/Projects/fleet-index/09_audit/03_reports/2026-10-17-fidelity-execution/icm-completion/independent-system-verification.json final_preacceptance_project_checks.culinary"
     }
   ],
   "claim_review": {
-    "reviewer": "Prime final maintainer source-reconciliation, session 01a145f8-1d9c-71fc-9217-3fa0a702ffe9; original independent evidence retained",
+    "reviewer": "Independent maintained-system ICM verifier; Prime child session 01a14af5-fc2f-7446-ad05-9f0e074c36e2 (not author)",
     "changed_claims": [
-      "Existing independent public-source/tasks review retained. Generated copied checker declarations removed in favor of derived exclusion; current workflow invokes exact portable entrypoint. Source-control command, dependency and maintenance chapters read against current workflow/bundle contract; old anchor now points to existing Two different gates."
+      "All28owner actual repeating-unit/form decisions and primary patterns1-15 reviewed; existing paths retained as author-form adaptation, not universal literal pipeline compliance.",
+      "Current scoped owner inputs/process/outputs, reference-vs-product authority, real source/consumer edges and applicable creative complete-unit steering/audit/requested-use controls.",
+      "Changed reference splits preserve old anchors, all original nonblank nonheading body lines and exact table/interface strings; source/nav/page mapping native-validated."
     ],
-    "source_observations": "All 38 declared first-party/current ownership inputs reviewed, with exact public article exceptions. Sixteen independent detailed observations below cover the applicable claim/interface groups; no load-bearing claim contradiction found. Source hashes identify reviewed bytes only, not semantic evidence.\nFINAL MAINTAINER RECONCILIATION: Existing independent public-source/tasks review retained. Generated copied checker declarations removed in favor of derived exclusion; current workflow invokes exact portable entrypoint. Source-control command, dependency and maintenance chapters read against current workflow/bundle contract; old anchor now points to existing Two different gates.",
-    "test_observations": "Native checker exit 0 after exact effects review. Official snapshot exit 0; strict check remains pending/exit 1 because canonical author receipt is changes-required. Schema shape check exit 0. Body/pair/menu-option/marker/reference-range comparisons independently recomputed without generator execution. Final correction checks are maintainer checks, not a new blind study.",
+    "source_observations": "Select content/blog stem JSON+HTML, shared index fragments/styles and complete generator write set; root asks customer-use and complete draft approval; checker is not public deployment. Native source/config consumers checked where applicable, including existing shared values rather than invented global configuration. Prior broad unchanged source implementation review is retained, not replaced by this method review. No code/runtime/constants behavior changed. Exact scoped evidence: /home/zack/Projects/fleet-index/09_audit/03_reports/2026-10-17-fidelity-execution/icm-completion/independent-system-verification.json owners.culinary",
+    "test_observations": "Fresh native current portal snapshot succeeded; project check before rebinding was pending only because reviewer decision changes-required (unchanged accepted owners remain accepted). Fresh sixfamily anchor probe passed; three inspected offline fictional/synthetic fixture checks passed. Existing application/runtime/test claims retain prior independently reviewed provenance and limits; no new model/game/device/service/private-data execution.",
     "findings": [],
     "resolutions": [
-      "Existing independent public-source/tasks review retained. Generated copied checker declarations removed in favor of derived exclusion; current workflow invokes exact portable entrypoint. Source-control command, dependency and maintenance chapters read against current workflow/bundle contract; old anchor now points to existing Two different gates.",
-      "Original independent review /tmp/hermes-docs-redo-2026-10-16/culinary-independent-review.json SHA256 fa77af48d6929d05b0ec11ff283b70a71eb2df7c790090543499e966b5a18a23"
+      "ISV-01..05 resolved in one parent correction pass: active creative controls, prospecting, Arduino wording, Harwick metadata compaction and dated Dex identity wording. Exact per-owner relevance and frozen bytes in independent-system-verification.json.",
+      "Prior complete broad independent source/claim/reader evidence retained verbatim; final acceptance is documentation/method exact input only, not human/product/runtime acceptance."
     ]
   },
   "task_trials": [
@@ -169,20 +202,220 @@
       "starting_state": "Same checkout; independent docs-only task was to plan article revision/retirement safely. Began index/sidebar, followed write/rebuild, retirement, reference and read-only trace routes before implementation/report access. Docs-only record saved at 2026-10-17T14:18:14.319942+00:00.",
       "observed_result": "Without source or author aid, named authored metadata/body pair and all five output groups (article pages/index/home preview/sitemap/RSS), stable slug/date/image/trusted-HTML rules, UTC selection not scheduling, no pruning, partial-write risk and owner retirement decision. Stopped before source-tracing substeps and recorded that limit. Subsequent independent source corroboration confirmed planning sample Sept10 eligibility, full body inclusion, five pairs/directories, Oct8 newest, exact write ordering and recursive stale-output shipping. No build/edit/removal occurred.",
       "author_assistance": "None. Source and report consulted only after docs-only trial observations were saved; subsequent source comparison is explicitly not a second unaided trial."
+    },
+    {
+      "reader": "Independent maintained-system ICM verifier; Prime child session 01a14af5-fc2f-7446-ad05-9f0e074c36e2 (not author)",
+      "task": "trace-article-impact",
+      "starting_state": "Current owner entry/CONTEXT and linked handbook route. Required method/evidence task context known; independent of author coaching. Agent source/navigation trial, not a blinded human study or full application execution.",
+      "observed_result": "CLAUDE -> CONTEXT -> how-to/write-and-rebuild-an-article: Select content/blog stem JSON+HTML, shared index fragments/styles and complete generator write set; root asks customer-use and complete draft approval; checker is not public deployment.",
+      "author_assistance": "None during task walk; correction scope supplied as independent findings, author implementation only rechecked against current source."
     }
   ],
   "limits": [
-    "Only /tmp/hermes-docs-redo-2026-10-16/culinary-independent-review.md and .json written by this reviewer. No canonical handbook/source/receipt changes, no constants changed.",
-    "No site/generator/Docusaurus/legacy-doc build, preview/serve process, prepare/export/release, product runtime, network, analytics, form/mailbox/customer-record/payment action, Git/index/staging/commit or dependency install. No subagents.",
-    "No private business leads/customer/account/billing/weekly-job records, secrets/env values, backup trees or broad private crawl. Public routing value and signed capture URL are not reproduced. Opaque verification bytes, excluded caches, media and old private generated products were not decoded/read.",
-    "Generated public HTML/XML were read for exact body/schema/link correspondence and offline checker inputs, not treated as authoritative authored sources or proof of generator freshness. All ten authored article JSON/HTML files remain declared and mapped; six exact parent policy exceptions were inspected as published public advice, not private data.",
-    "Source/template inspection is not live provider acceptance, inbox delivery, reply-to, remote CI/Pages/DNS/weekly schedule health, browser layout/accessibility/compatibility, SEO/ranking/rich-result/publication result, rights/credential validation or human acceptance.",
-    "Canonical decision is controlled by author/parent, not this reviewer. This recommendation applies only to the exact final current bytes in snapshot. Normalized approved evidence/integration/index/browser/release checks remain parent/authorized-owner work. Any further relevant source/page/nav/asset/manifest change needs impact review.",
-    "Concurrent .gitignore/configuration-reference/manifest changes were not made by this reviewer. Read complete ignore rules and exact prose/manifest diffs, compared effects/claims and reran read-only native checks. No attribution or owner authorization invented. Parent was told to freeze inputs for final snapshot.",
-    "Root instructions, handbook status, project brief/review contract, author report and original audit were read. Original audit was used for scope/provenance only; current load-bearing claims were independently compared with source. No existing graphify graph; no graph build/install under assigned safety boundary.",
-    "Final recursive-ignore delta pending original independent reviewer; prior accepted source/task review is preserved but cannot automatically accept changed inputs.",
-    "Final changes were verified by this single maintainer, not a newly spawned independent reviewer. Original independent trials and their assistance/timing limitations are retained.",
-    "Documentation acceptance is not product runtime, rights, business, device or human acceptance. No private inventory suite, models, GPU, mail, backup or publication action was performed."
+    "No runtime, game/model/GPU, service, device, network, credentials/private env, personal-note/manuscript/customer/financial record payload, publication, stage/commit/push or graph rebuild performed.",
+    "Independent unaided navigation trials are agent source/task inspections without author coaching, not human testimony or execution of every application.",
+    "Prior complete independent source/claim review evidence reused for unchanged behavior; changed controls/prose inspected directly. Snapshot/hash validity alone is not acceptance.",
+    "Current-submission/remote/release evidence remains parent-owned. HOME source, Fleet-owned manual and external verification checkout are separate Git owners; no monolithic HOME index pass claimed.",
+    "Accepted exact reader/source/method snapshot only. Current submitted-index, normal private remote readback and shared release/browser/export integration are parent-owned separate evidence, not claimed by this receipt.",
+    "Graph attempt-one was not promoted after10missing edge provenance paths; no graph semantic/model or current structural acceptance from it. Operator final source-freeze refresh separate.",
+    "Original and prior-dated verification/runtime limits remain in prior_independent_before_final_icm_verification, not silently upgraded by current documentation acceptance. Echo/Titan holds and all existing human/outward-action gates remain unchanged."
   ],
-  "decision": "accepted"
+  "decision": "accepted",
+  "prior_independent_before_final_icm_verification": {
+    "schema": 1,
+    "project": "culinary",
+    "reviewed_at": "2026-10-17T15:53:53.370074+00:00",
+    "snapshot": {
+      "source_hashes": {
+        ".githooks/docs-pre-commit": "842e2f7b7f9eeeb4bd901a1e9b2260040b2e6904ef507dc4551eec8774402256",
+        ".github/workflows/deploy-pages.yml": "4f23b9e152131232d5dba192c8be3844dff25d19a87707e80317ed5e6ed783de",
+        ".gitignore": "970886ad31eb0cd9751892774b2cd8ade944baae6e035b0bdd90d6e484535fa5",
+        ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "AGENTS.md": "75ee3102a80c54b6dec5833767f8296451b409489a4dc7325cecaf762c6f3c25",
+        "ASSET-SOURCES.json": "4f25c63b708332ddfb97d1ca5db4bf91ca19ab391b8703e3080856d1ff5711e0",
+        "CLAUDE.md": "75ee3102a80c54b6dec5833767f8296451b409489a4dc7325cecaf762c6f3c25",
+        "CLIENT-QUESTIONS.md": "22b8da38bdf2db361059875d522f39b3931d2671757c13038dbbe22193276142",
+        "CNAME": "17c88105d7046ae1b1006fc02045690d4066bf2758e906d2c0e5e63b2986e5b6",
+        "CONTEXT.md": "26434ecc4fdfdb60598e75e6cabda4582ab07b3e8d7eba64a395dd5d7c06f4f9",
+        "DESIGN.md": "94350dfbe5882dde67e79c559da29f6f46f3aef038c7d3c12c8ff778999b1bbb",
+        "LAUNCH.md": "43559b1882756eb309dbeae5b6a27002a57ffe226e476a550fc8f01faa628650",
+        "README.md": "333c08ddb62bb04c4ae2c24cea05266cb214855013b476f9713d40291ac93a9d",
+        "build-blog.py": "7632102b6d41893f3d2a531482d53802151bb67746426f954f1a78f99225cad7",
+        "build-menus.py": "53b495bbcafaca1258d5e1209b7ca0ccb3f476e0c22f3c8e496e332f1737374c",
+        "content/blog/choosing-a-private-dinner-menu-for-different-preferences.html": "773735c7d39a630eb037f100c0c96483922051073a73129c47685b52ef8de6b6",
+        "content/blog/choosing-a-private-dinner-menu-for-different-preferences.json": "acd1c09abc74c2cb9bf206286e2a4f2f25b9a11ff6d115d49c70b1ab7181d021",
+        "content/blog/in-home-cooking-classes-planning-hands-on-experience.html": "836600f19229caba6005fe24e3e0ef4eb80d1f22660a69770a587f3f39f2c723",
+        "content/blog/in-home-cooking-classes-planning-hands-on-experience.json": "6a5132624944cfc5b03cfaffabbee46988537d49e9538efe97b9d03307f3d9ad",
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.html": "d9f9334a039482ef43502684e222da4325dbe2d90da19736737a0ed31c0cdb37",
+        "content/blog/planning-private-chef-dinner-south-florida-gulf-coast.json": "0ec251e2d2e33b95f482475442f2a9ccf3831ecd672c50d796c6ece5a523f4c5",
+        "content/blog/private-chef-dinner-or-event-catering-how-to-choose.html": "06929e0a6bc4dff54615906d7a114dc1ab7d55a983d211a75f22c3e5129b94ed",
+        "content/blog/private-chef-dinner-or-event-catering-how-to-choose.json": "9a6bc9633f9ac712099051caaf48e775c497786cdb2ffc4cb7c85cee11fffd7f",
+        "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.html": "54b7d0c36bc743228768267f8ae1e98416af64b9a339ab48473532f8bdf32221",
+        "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.json": "1f29f58a9a5bd342d0e53d8a522e1c4263433ae6d7ce187b2fd69aafa5efedcb",
+        "docs/CONTEXT.md": "c36b6eb39a17adff04d0a3cb5c49fc114b29a3860969774c09b6f24bdbe6c1db",
+        "index.html": "5c9c6fda28c151dbcaaaa3abecfd638d1c5a8442c389086692966b498c52d20e",
+        "menus.json": "5e0d365d04f3157afe9532c27318d7b6a971db1a2f7109303a3ac9a218f01ea2",
+        "ops/verify-domain.sh": "f3dc7a1e53012d32e4b3972778aa67df4439dc2a443968c02080e52d32538460",
+        "robots.txt": "58ea7785260af8ef8dd27ffb2225ddfb199a3faaf8d94160c0ef3638e0412c50",
+        "script.js": "283479aed261d07adb7f12b7e8a48f236b45a8d3c6f2db57c6bbf764a9805389",
+        "styles.css": "b36b2e398e25558f7c2aeda28f8409c49e231706ed8d47453b070808137b7d83",
+        "tests/check-site.py": "4354dea660686dca9c26030fc2e1fb47ee6541e2d8dfda103e09b678f0681c49",
+        "thank-you.html": "815f236eb997ea5873fa07cf562d841d041366c6d65ca89c342c281bf39b9fed"
+      },
+      "doc_hashes": {
+        "CONTEXT.md": "da6a8aed5cc71bd392094e89b335179bc9b373ec506b70cc69e18af481b904f3",
+        "architecture.md": "cb55b9ca9baf0310d3db78ffee5be31b889f40622a6dc2bad564982992e48aed",
+        "architecture/inquiry-and-personal-data.md": "e835cb87ee089acdbca2a9cef112c3f614805b41eae9f8129daf7d2015c5c233",
+        "architecture/source-to-public-artifact.md": "d3af628abf6781f27f0ce0180ffbaa1b1e65ce59bcb080efe7a2ebb9da46c35c",
+        "collaboration.md": "7dfbb087e1bcdd6e8bf4349ed7b5996e4721d06e1cb0b6590e8cc08441d80609",
+        "developer/setup-and-project-map.md": "34c3a2e1906ef8c46a4cda8a50e8df4bb357f573010cf4914713622528489cfd",
+        "developer/testing-and-extension-points.md": "0f4788e7890ad5bc437ec88e3700e449585725f810762b2a4920760395ec84bf",
+        "guide.md": "6303fac32b7f68907e694bd9f757ee8999553c6fcdfb8d72db698d0bc715700d",
+        "how-to/change-or-retire-article-source.md": "e118915a4dc4ee291899dda24979d586c409042ba6ba9f0d9d34303451dc8d19",
+        "how-to/preview-and-review-interactions.md": "e853d71f0015a676474ee65b78a4c1f22b02f569246846e9f23c54c3090e3d3b",
+        "how-to/review-publication-and-domain-evidence.md": "11e792d93e3f1c1649673e865ab8f8fe0fc8cee7c5d54d9fc4310d95a890c554",
+        "how-to/update-menus.md": "4534edd6597ab04167cd2ddbd8ca9c62ea14fcb456f2c9ff1c81bc30d5f992de",
+        "how-to/write-and-rebuild-an-article.md": "6309c95a2c51e3e933f610d2659959525c4a258c9f6ccf5bbfe423a800498bb1",
+        "index.md": "defd4bb2ca7199b86c124eaa6f8d511f28f559859a4806861a22650ba5be68e9",
+        "maintenance/change-impact-and-docs-ownership.md": "9fe0ca05e66ba7af8720a077e5deb0aefc55d7ccc9ddadacb211200df70827f8",
+        "operations/verification-and-troubleshooting.md": "a8eeb7cd9f9f65b239c9e676822842468ab99f39c178d19c3f1fc177fbfda645",
+        "reference/article-source-and-metadata.md": "d11105eeb5aa58434793bbc7be4cdb4e43b02b9e405c1a0d4b3bb17a2719d69a",
+        "reference/browser-contracts-and-form.md": "7065f66de2ebf3e25a0e671d6c435903ea67d2aa56bce8cf4e18fe2134596bba",
+        "reference/dependencies-and-configuration.md": "85073a03c15b9d6757c2498cd2bdb6cfd5d672c2f27c8fa124c7f5f6336cf6ec",
+        "reference/design-assets-and-crawl.md": "c2db51678ebcb0505eb580ebcc365bcc9808ef6ed8487343dcb931eb9e5b1c5d",
+        "reference/generator-and-checker-cli.md": "aa22f41fd852dc2fef074459d702ae9d370f0669aedf947038921b15ca10c9a3",
+        "reference/menu-source.md": "c1053a51e18c8328dbcf2f95affdc49b7b4e52fef9fdb85fd5d32d5e1cff986d",
+        "sidebar.json": "5244d543bf1134629e5c1d872d9bcba0f0ba0c9fc7c4416486b88253c9177191",
+        "status.md": "ce94b3ef9dfcb9fafae5ffb1f6be50c5ef8a3c10141a488387cfc1fdbca5abeb",
+        "tutorials/check-the-shipped-site-offline.md": "622f0d35be9606e334442bbd7e927ab72df110cfa6bc32610bfa746cecd0c186",
+        "tutorials/trace-a-menu-inquiry.md": "a4e65341380f72b5ac7ea8ae35cdfd6b56f67e6ef761922d6eccd8f5dfaf75f8",
+        "tutorials/trace-an-existing-article.md": "5bc5010f8a6447ae465a08ba969f5acd306d1b9128b2f8019808ab4b0d509107"
+      },
+      "manifest_hash": "4ae831a40ab91c1c6826b571bb8337402b1f0a4cb006af4a484961aabd5c8c2d"
+    },
+    "impact": {
+      "base": "Existing independent source/content/task review plus current final maintainer delta comparison",
+      "changed_paths": [
+        ".github/workflows/deploy-pages.yml",
+        ".gitignore",
+        "CONTEXT.md",
+        "architecture.md",
+        "developer/setup-and-project-map.md",
+        "developer/testing-and-extension-points.md",
+        "how-to/review-publication-and-domain-evidence.md",
+        "maintenance/change-impact-and-docs-ownership.md",
+        "operations/verification-and-troubleshooting.md",
+        "reference/dependencies-and-configuration.md",
+        "reference/generator-and-checker-cli.md",
+        "manifest.json"
+      ],
+      "affected_pages": [
+        "CONTEXT",
+        "architecture",
+        "developer/setup-and-project-map",
+        "developer/testing-and-extension-points",
+        "how-to/review-publication-and-domain-evidence",
+        "maintenance/change-impact-and-docs-ownership",
+        "operations/verification-and-troubleshooting",
+        "reference/dependencies-and-configuration",
+        "reference/generator-and-checker-cli"
+      ],
+      "affected_interfaces": [],
+      "no_doc_impact": []
+    },
+    "checks": [
+      {
+        "command": "python3 tests/check-site.py",
+        "environment": "/home/zack/Projects/culinary-revolutionary-redesign; existing python3, stdlib; normal assertions enabled, no install.",
+        "effects": "Read exact current public HTML/XML and local target metadata only. Reviewed entire tests/check-site.py before execution. No write/network/server/form/analytics.",
+        "exit": 0,
+        "outcome": "PASS: 9 pages, 308 internal links, article metadata, 8 sitemap URLs and RSS.",
+        "evidence": "Independent native BashHandle pid 1145658; completed exit/output inspected; duration 0.13266481994651258 seconds."
+      },
+      {
+        "command": "/usr/bin/python3 -B /home/zack/Projects/fleet-index/_system/documentation/site/scripts/portal.py snapshot --registry /home/zack/Projects/fleet-index/_system/documentation/workspaces.json --project culinary",
+        "environment": "Owning fleet-index documentation package /usr/bin/python3 -B; actual live registry and schemas. No kernel project import.",
+        "effects": "Read-only source/page/nav/manifest/schema/link snapshot after reading portal implementation. No prepare/build/release/Git/index. Adapter enumerates other registered reader-route names for link validation, but no other project substantive source review was done.",
+        "exit": 0,
+        "outcome": "Snapshot valid: 38 declared source hashes, 27 reader-input hashes, manifest 03c2b22e211130f3e40ef9a9824efe647cbf92cdaf7c7475f4917e9297b84f8e. Final direct rehash equals native snapshot.",
+        "evidence": "Latest completed BashHandle pid 1188903; initial snapshot and two subsequent renewed snapshots all exit 0. All source/doc/manifest deltas substantively reviewed, not merely rehashed."
+      },
+      {
+        "command": "/usr/bin/python3 -B /home/zack/Projects/fleet-index/_system/documentation/site/scripts/portal.py check --registry /home/zack/Projects/fleet-index/_system/documentation/workspaces.json --project culinary --json",
+        "environment": "Same native /usr/bin/python3 -B and current official registry.",
+        "effects": "Read-only structural snapshot and current admission check. No canonical receipt mutation or build/release.",
+        "exit": 1,
+        "outcome": "{\n  \"projects\": {\n    \"culinary\": {\n      \"reason\": \"review changes-required\",\n      \"state\": \"pending\"\n    }\n  },\n  \"schema\": 1\n}",
+        "evidence": "Latest completed BashHandle pid 1188907; pending is expected because canonical author receipt remains changes-required."
+      },
+      {
+        "command": "/usr/bin/python3 -B -c 'import json,runpy; from pathlib import Path; api=runpy.run_path(\"/home/zack/Projects/fleet-index/_system/documentation/site/scripts/portal.py\"); base=Path(\"/home/zack/Projects/culinary-revolutionary-redesign/docs/verification\"); [(api[\"validate_shape\"](json.loads((base/(name+\".json\")).read_text()), api[\"contract_schema\"](name), api[\"contract_schema\"](name), name)) for name in (\"manifest\",\"review\")]; print(\"PASS: canonical manifest and changes-required review match current published schemas; no admission changed.\")'",
+        "environment": "Owning native /usr/bin/python3 -B; runpy defines reviewed guarded portal functions; current published schema files.",
+        "effects": "Reads only canonical manifest/review and shared schema. Main/build/Git/network not invoked.",
+        "exit": 0,
+        "outcome": "PASS: canonical manifest and changes-required review match current published schemas; no admission changed.",
+        "evidence": "Latest completed BashHandle pid 1188912. Shape only, not semantic approval."
+      },
+      {
+        "command": "/usr/bin/python3 -B /tmp/documentation-final-validation/snapshots.py; reader-source-audit.py; check-final-claims.py",
+        "environment": "Existing native /usr/bin/python3; final maintainer source comparison, no dependency install",
+        "effects": "Exact declared public source/docs/manifest reads, pre-descent pruning, no product/runtime/private-inventory execution",
+        "exit": 0,
+        "outcome": "Current snapshot, citation bounds and source/claim corrections verified; independent task evidence is preserved, not newly fabricated",
+        "evidence": "/tmp/documentation-final-validation/snapshots.json; reader-source-audit.json; /tmp/finish-final-claims.json; original /tmp/hermes-docs-redo-2026-10-16/culinary-independent-review.json"
+      }
+    ],
+    "claim_review": {
+      "reviewer": "Prime final maintainer source-reconciliation, session 01a145f8-1d9c-71fc-9217-3fa0a702ffe9; original independent evidence retained",
+      "changed_claims": [
+        "Existing independent public-source/tasks review retained. Generated copied checker declarations removed in favor of derived exclusion; current workflow invokes exact portable entrypoint. Source-control command, dependency and maintenance chapters read against current workflow/bundle contract; old anchor now points to existing Two different gates."
+      ],
+      "source_observations": "All 38 declared first-party/current ownership inputs reviewed, with exact public article exceptions. Sixteen independent detailed observations below cover the applicable claim/interface groups; no load-bearing claim contradiction found. Source hashes identify reviewed bytes only, not semantic evidence.\nFINAL MAINTAINER RECONCILIATION: Existing independent public-source/tasks review retained. Generated copied checker declarations removed in favor of derived exclusion; current workflow invokes exact portable entrypoint. Source-control command, dependency and maintenance chapters read against current workflow/bundle contract; old anchor now points to existing Two different gates.",
+      "test_observations": "Native checker exit 0 after exact effects review. Official snapshot exit 0; strict check remains pending/exit 1 because canonical author receipt is changes-required. Schema shape check exit 0. Body/pair/menu-option/marker/reference-range comparisons independently recomputed without generator execution. Final correction checks are maintainer checks, not a new blind study.",
+      "findings": [],
+      "resolutions": [
+        "Existing independent public-source/tasks review retained. Generated copied checker declarations removed in favor of derived exclusion; current workflow invokes exact portable entrypoint. Source-control command, dependency and maintenance chapters read against current workflow/bundle contract; old anchor now points to existing Two different gates.",
+        "Original independent review /tmp/hermes-docs-redo-2026-10-16/culinary-independent-review.json SHA256 fa77af48d6929d05b0ec11ff283b70a71eb2df7c790090543499e966b5a18a23"
+      ]
+    },
+    "task_trials": [
+      {
+        "reader": "independent subagent 01a14a39-719b-75c5-89a4-3bd1ff629c9d",
+        "task": "first-offline-result",
+        "starting_state": "Local checkout and existing Python; began with index.md + sidebar.json only, then offline tutorial and CLI/status routes before source/report access. Docs-only observations recorded at 2026-10-17T14:18:14.319942+00:00.",
+        "observed_result": "Docs gave exact root command, prerequisites, no -O, success/failure scope and no cleanup. After recording the docs-only stage, read entire checker to verify effects, then native execution returned exit 0: PASS: 9 pages, 308 internal links, article metadata, 8 sitemap URLs and RSS.. Correctly distinguished local assertions from live/form/browser/freshness proof.",
+        "author_assistance": "None. No author/source/audit/brief/report used during navigation. Source was consulted only after frozen docs-only trial record, for required effects check."
+      },
+      {
+        "reader": "independent subagent 01a14a39-719b-75c5-89a4-3bd1ff629c9d",
+        "task": "trace-article-impact",
+        "starting_state": "Same checkout; independent docs-only task was to plan article revision/retirement safely. Began index/sidebar, followed write/rebuild, retirement, reference and read-only trace routes before implementation/report access. Docs-only record saved at 2026-10-17T14:18:14.319942+00:00.",
+        "observed_result": "Without source or author aid, named authored metadata/body pair and all five output groups (article pages/index/home preview/sitemap/RSS), stable slug/date/image/trusted-HTML rules, UTC selection not scheduling, no pruning, partial-write risk and owner retirement decision. Stopped before source-tracing substeps and recorded that limit. Subsequent independent source corroboration confirmed planning sample Sept10 eligibility, full body inclusion, five pairs/directories, Oct8 newest, exact write ordering and recursive stale-output shipping. No build/edit/removal occurred.",
+        "author_assistance": "None. Source and report consulted only after docs-only trial observations were saved; subsequent source comparison is explicitly not a second unaided trial."
+      }
+    ],
+    "limits": [
+      "Only /tmp/hermes-docs-redo-2026-10-16/culinary-independent-review.md and .json written by this reviewer. No canonical handbook/source/receipt changes, no constants changed.",
+      "No site/generator/Docusaurus/legacy-doc build, preview/serve process, prepare/export/release, product runtime, network, analytics, form/mailbox/customer-record/payment action, Git/index/staging/commit or dependency install. No subagents.",
+      "No private business leads/customer/account/billing/weekly-job records, secrets/env values, backup trees or broad private crawl. Public routing value and signed capture URL are not reproduced. Opaque verification bytes, excluded caches, media and old private generated products were not decoded/read.",
+      "Generated public HTML/XML were read for exact body/schema/link correspondence and offline checker inputs, not treated as authoritative authored sources or proof of generator freshness. All ten authored article JSON/HTML files remain declared and mapped; six exact parent policy exceptions were inspected as published public advice, not private data.",
+      "Source/template inspection is not live provider acceptance, inbox delivery, reply-to, remote CI/Pages/DNS/weekly schedule health, browser layout/accessibility/compatibility, SEO/ranking/rich-result/publication result, rights/credential validation or human acceptance.",
+      "Canonical decision is controlled by author/parent, not this reviewer. This recommendation applies only to the exact final current bytes in snapshot. Normalized approved evidence/integration/index/browser/release checks remain parent/authorized-owner work. Any further relevant source/page/nav/asset/manifest change needs impact review.",
+      "Concurrent .gitignore/configuration-reference/manifest changes were not made by this reviewer. Read complete ignore rules and exact prose/manifest diffs, compared effects/claims and reran read-only native checks. No attribution or owner authorization invented. Parent was told to freeze inputs for final snapshot.",
+      "Root instructions, handbook status, project brief/review contract, author report and original audit were read. Original audit was used for scope/provenance only; current load-bearing claims were independently compared with source. No existing graphify graph; no graph build/install under assigned safety boundary.",
+      "Final recursive-ignore delta pending original independent reviewer; prior accepted source/task review is preserved but cannot automatically accept changed inputs.",
+      "Final changes were verified by this single maintainer, not a newly spawned independent reviewer. Original independent trials and their assistance/timing limitations are retained.",
+      "Documentation acceptance is not product runtime, rights, business, device or human acceptance. No private inventory suite, models, GPU, mail, backup or publication action was performed."
+    ],
+    "decision": "changes-required"
+  },
+  "icm_completion_independent_scope": {
+    "reviewer": "Independent maintained-system ICM verifier; Prime child session 01a14af5-fc2f-7446-ad05-9f0e074c36e2 (not author)",
+    "report": "/home/zack/Projects/fleet-index/09_audit/03_reports/2026-10-17-fidelity-execution/icm-completion/independent-system-verification.json",
+    "owners_reviewed": 28,
+    "pattern_decisions": 420,
+    "method_verdict": "pass after one correction pass under actual author-supported forms, with literal pipeline/name adaptations explicit",
+    "runtime_or_human_acceptance": false,
+    "constants_changed": []
+  }
 }

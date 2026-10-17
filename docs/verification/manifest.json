@@ -389,7 +389,8 @@
       "sources": [
         "CLAUDE.md",
         "README.md",
-        "LAUNCH.md"
+        "LAUNCH.md",
+        "CONTEXT.md"
       ]
     },
     {

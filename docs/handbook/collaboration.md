@@ -1,15 +1,8 @@
 ---
-title: Project and collaboration overview
-description: Understand the business outcome, implemented work, decisions, open questions
-  and how humans or agents contribute.
-kind: overview
-source_ref:
-- AGENTS.md#L15-L31
-- README.md#L67-L139
-- LAUNCH.md#L3-L66
-- LAUNCH.md#L86-L91
-- CLIENT-QUESTIONS.md#L8-L99
-- DESIGN.md#L36-L49
+title: "Project and collaboration overview"
+description: "Understand the business outcome, implemented work, decisions, open questions and how humans or agents contribute."
+kind: "overview"
+source_ref: ["AGENTS.md", "README.md#L67-L139", "LAUNCH.md#L3-L66", "LAUNCH.md#L86-L91", "CLIENT-QUESTIONS.md#L8-L99", "DESIGN.md#L36-L49"]
 ---
 
 # Project and collaboration overview
