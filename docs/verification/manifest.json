@@ -96,6 +96,14 @@
       "role": "authored_content"
     },
     {
+      "path": "content/blog/seven-sample-menus-how-to-start-and-customize.html",
+      "role": "authored_content"
+    },
+    {
+      "path": "content/blog/seven-sample-menus-how-to-start-and-customize.json",
+      "role": "authored_content"
+    },
+    {
       "path": "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.html",
       "role": "authored_content"
     },
@@ -358,6 +366,10 @@
       "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
     },
     {
+      "path": "blog/seven-sample-menus-how-to-start-and-customize/index.html",
+      "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
+    },
+    {
       "path": "blog/what-to-discuss-before-booking-weekly-meal-preparation/index.html",
       "reason": "Generated public product; implementation/input owners declared and reviewed, current HTML/XML checked by native site checker. Not a first-party authored module."
     },
@@ -567,6 +579,8 @@
         "content/blog/in-home-cooking-classes-planning-hands-on-experience.json",
         "content/blog/private-chef-dinner-or-event-catering-how-to-choose.html",
         "content/blog/private-chef-dinner-or-event-catering-how-to-choose.json",
+        "content/blog/seven-sample-menus-how-to-start-and-customize.html",
+        "content/blog/seven-sample-menus-how-to-start-and-customize.json",
         "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.html",
         "content/blog/what-to-discuss-before-booking-weekly-meal-preparation.json"
       ]

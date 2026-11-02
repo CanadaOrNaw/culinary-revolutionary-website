@@ -15,6 +15,8 @@ source_ref:
 - content/blog/in-home-cooking-classes-planning-hands-on-experience.json#L1-L13
 - content/blog/private-chef-dinner-or-event-catering-how-to-choose.html#L1-L22
 - content/blog/private-chef-dinner-or-event-catering-how-to-choose.json#L1-L13
+- content/blog/seven-sample-menus-how-to-start-and-customize.html#L1-L13
+- content/blog/seven-sample-menus-how-to-start-and-customize.json#L1-L13
 - content/blog/what-to-discuss-before-booking-weekly-meal-preparation.html#L1-L26
 - content/blog/what-to-discuss-before-booking-weekly-meal-preparation.json#L1-L13
 ---
