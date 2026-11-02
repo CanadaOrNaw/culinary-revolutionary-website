@@ -4,10 +4,6 @@
   "author": "culinary project author (Prime child; not independent reviewer)",
   "sources": [
     {
-      "path": ".githooks/docs-pre-commit",
-      "role": "deployment_and_crawl_config"
-    },
-    {
       "path": ".github/workflows/deploy-pages.yml",
       "role": "deployment_and_crawl_config"
     },
@@ -552,7 +548,6 @@
         "build-blog.py",
         "tests/check-site.py",
         "ops/verify-domain.sh",
-        ".githooks/docs-pre-commit",
         ".github/workflows/deploy-pages.yml"
       ]
     },
@@ -626,7 +621,6 @@
         "AGENTS.md",
         "CONTEXT.md",
         "docs/CONTEXT.md",
-        ".githooks/docs-pre-commit",
         ".github/workflows/deploy-pages.yml"
       ]
     },
@@ -1002,18 +996,6 @@
       ],
       "claims": [
         "empty-shipping-marker"
-      ]
-    },
-    {
-      "id": "docs-hook",
-      "kind": "hook",
-      "source": ".githooks/docs-pre-commit",
-      "docs": [
-        "maintenance/change-impact-and-docs-ownership#two-different-gates"
-      ],
-      "claims": [
-        "shared-enforce-call",
-        "hook-file-not-universal-enforcement"
       ]
     },
     {

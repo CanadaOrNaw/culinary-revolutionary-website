@@ -7,7 +7,7 @@ source_ref:
 - README.md#L3-L23
 - build-blog.py#L3-L25
 - build-menus.py#L3-L14
-- .github/workflows/deploy-pages.yml#L27-L59
+- .github/workflows/deploy-pages.yml#L27-L45
 - script.js#L99-L109
 - styles.css#L419-L575
 - docs/CONTEXT.md#L1-L5
@@ -46,7 +46,7 @@ The public site requests Google Fonts with local font fallbacks and uses Web3For
 | `LAUNCH.md`, `CLIENT-QUESTIONS.md` | Dated launch authority and unresolved copy questions | Do not turn historical records into current live claims |
 | `docs/handbook/` | This private reader documentation | Never copied into the public business artifact |
 | `docs/verification/` | Source/page/interface map and review evidence | Not reader-site input or business-site content |
-| `.docs-check/`, `.githooks/docs-pre-commit` | Derived portable CI policy and shared local enforcement call | Shared owner regenerates policy; copied executors are not hand-authored culinary source |
+| `.docs-check/` | Retired portable CI policy bundle (fleet-wide hook removal; deploy workflow no longer calls it) | Shared owner regenerates policy; copied executors are not hand-authored culinary source |
 
 The audit also classified binary public assets, ignored historical previews, ignored scrape responses, opaque domain-verification materials and old generated private handbook views. They are not hidden app modules. Do not mistake a screenshot, cache response or generated receipt for current behavior proof.
 

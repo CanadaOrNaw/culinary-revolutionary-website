@@ -10,8 +10,7 @@ source_ref:
 - build-blog.py#L78-L111
 - tests/check-site.py#L1-L80
 - ops/verify-domain.sh#L1-L28
-- .githooks/docs-pre-commit#L1-L4
-- .github/workflows/deploy-pages.yml#L27-L39
+- .github/workflows/deploy-pages.yml#L27-L28
 ---
 
 
